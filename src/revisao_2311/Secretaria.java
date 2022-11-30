@@ -13,6 +13,8 @@ public class Secretaria extends Funcionario implements Prioridade{
 		this.idiomaFalado = idiomaFalado;
 	}
 
+	
+	// implementando o método criado em Prioridade
 	@Override
 	public boolean autentica() {
 		if (idiomaFalado == "Ingles" || idiomaFalado == "Inglês") {

@@ -1,5 +1,6 @@
 package revisao_2311;
 
+// engenheiro extende funcionario
 public class Engenheiro extends Funcionario {
 	private String crea;
 

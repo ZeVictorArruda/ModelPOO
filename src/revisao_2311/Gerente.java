@@ -13,6 +13,8 @@ public class Gerente extends Funcionario implements Prioridade {
 		this.departamento = departamento;
 	}
 
+	
+	// implementando o método autentica criado na interface Prioridade
 	@Override
 	public boolean autentica() {
 		
